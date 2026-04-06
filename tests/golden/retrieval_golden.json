@@ -1,0 +1,18 @@
+{
+  "description": "Golden file for retrieval regression testing. Update when embedding model changes.",
+  "model": "all-MiniLM-L6-v2",
+  "queries": [
+    {
+      "query": "debugging and git blame",
+      "expected_top_contains": "git blame"
+    },
+    {
+      "query": "distributed systems failures",
+      "expected_top_contains": "distributed systems"
+    },
+    {
+      "query": "parser and grammar",
+      "expected_top_contains": "parser"
+    }
+  ]
+}
